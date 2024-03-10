@@ -1,47 +1,14 @@
 @charset "UTF-8";
-/* Base */
 
-html {
-    /* font-family: "Montserrat", sans-serif; */
-  
-    --color-primary-500: rgb(120, 171, 248);
-    --color-primary-700: rgb(93, 156, 243);
-    --color-primary-900: rgb(29, 118, 243);
-    --color-primary-bg: rgb(220, 232, 250);
-}
+/*!
+ * animate.css -https://daneden.github.io/animate.css/
+ * Version - 3.7.2
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2019 Daniel Eden
+ */
 
-.container_help_links {
-    margin: 1vh 0vh;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container_help_links a{
-    font-size: 0.8rem;
-    color: blue;
-}
-
-
-
-.container_digital_login{
-    width: 47%;
-    padding-right: 3vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.img_login_error {
-  width: 5vw;
-  height: 5vw;
-  animation: heartbeat 2s 1;
-}
-
-@keyframes heartbeat {
-  0% {
-    transform: scale(1);
-  }
-  25% {
+html {/* font-family: "Montserrat", sans-serif; */--color-primary-500: rgb(120, 171, 248);--color-primary-700: rgb(93, 156, 243);--color-primary-900: rgb(29, 118, 243);--color-primary-bg: rgb(220, 232, 250);}.container_help_links {margin: 1vh 0vh;display: flex;justify-content: space-between;}.container_help_links a{font-size:0.8rem;color:blue;}.container_digital_login{width: 47%;padding-right:3vw;display: flex;flex-direction: column;justify-content: space-around;}.img_login_error {width: 5vw;height: 5vw;animation:heartbeat 2s 1;}/* @keyframes heartbeat {0%{transform: scale(1);}25%{
     transform: scale(1.2);
   }
   50% {
@@ -98,4 +65,4 @@ html {
     width: 6vw !important;
     height: 2vw;
     font-size: 0.8vw !important;
-}
+} */
