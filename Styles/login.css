@@ -1,0 +1,101 @@
+
+/* Base */
+
+html {
+    /* font-family: "Montserrat", sans-serif; */
+  
+    --color-primary-500: rgb(120, 171, 248);
+    --color-primary-700: rgb(93, 156, 243);
+    --color-primary-900: rgb(29, 118, 243);
+    --color-primary-bg: rgb(220, 232, 250);
+}
+
+.container_help_links {
+    margin: 1vh 0vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_help_links a{
+    font-size: 0.8rem;
+    color: blue;
+}
+
+
+
+.container_digital_login{
+    width: 47%;
+    padding-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img_login_error {
+  width: 5vw;
+  height: 5vw;
+  animation: heartbeat 2s 1;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.custom-dialog-class {
+  width: 20vw !important;
+  height: 25vh !important;
+}
+
+.swal2-title {
+  margin: 0 !important
+}
+
+.swal2-popup {
+    width: 18vw !important;
+    border-radius: 20px !important;
+}
+
+.swal2-html-container {
+  display: flex !important;
+  margin: 0 !important;
+  align-items: center;
+  width: 18vw !important;
+}
+
+.swal2-html-container p {
+  font-size: 1vw !important;
+  margin: 1vw 0 1vw 0 !important;
+  text-align: center;
+}
+
+.swal2-actions {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 18vw;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+
+.custom-confirm-button-class {
+    width: 6vw !important;
+    height: 2vw;
+    font-size: 0.8vw !important;
+}
