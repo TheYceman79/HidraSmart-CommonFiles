@@ -1,0 +1,192 @@
+
+html {
+    /* font-family: "Montserrat", sans-serif; */
+  
+    --color-primary-500: rgb(120, 171, 248);
+    --color-primary-700: rgb(93, 156, 243);
+    --color-primary-900: rgb(29, 118, 243);
+    --color-primary-bg: rgb(220, 232, 250);
+}
+
+.container_master_login{
+    display: flex;
+    flex-direction: row;
+    width:83vw;
+    height: 72vh;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.contact_form,
+.form_login {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box_img_contact_form,
+.box_img_security{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_contact_form,
+.img_security {
+    width: 100%;
+    height: 35vw;
+    margin-left: -2vw;
+}
+
+.container_body{
+    display: flex;
+    width: 35%;
+    margin-left: -0.5vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container_subcontainers_input{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.subcontainer_name,
+.subcontainer_email,
+.subcontainer_message,
+.subcontainer_pass {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.subcontainer_input_name,
+.subcontainer_input_email,
+.subcontainer_input_message,
+.subcontainer_input_pass {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.label_subcontainer_input_name,
+.label_subcontainer_input_email,
+.label_subcontainer_input_message,
+.label_subcontainer_input_pass {
+    position: absolute;
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+    top: -1.5vh;
+    left: 2vw;
+    background-color: #fff;
+    padding: 0 0.5vw;
+}
+
+.container_img_name,
+.container_img_email,
+.container_img_message, 
+.container_img_pass {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 10px 0 0 10px;
+    padding: 0.6vw 0.3vw;
+}
+
+.container_text_input_name,
+.container_text_input_email,
+.container_text_input_message,
+.container_text_input_pass {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-top: 0.5vh;
+}
+
+.container_text_input_name a,
+.container_text_input_email a,
+.container_text_input_message a,
+.container_text_input_pass a {
+    text-decoration: none;
+}
+
+.text_informative_notice_name,
+.text_informative_notice_email,
+.text_informative_notice_message,
+.text_informative_notice_pass {
+    color: gray;
+}
+
+.text_important_warning_name,
+.text_important_warning_email,
+.text_important_warning_message,
+.text_important_warning_pass {
+    color: red;
+}
+
+.input_name,
+.input_email,
+.input_message, 
+.input_pass{
+    font: inherit;
+    outline: 0;
+    color: gray;
+    background-color: aliceblue;
+    text-align: left;
+    width: 100%;
+    height: 6vh;
+    font-size: 1.1rem;
+    border: 0;
+    padding: 0 0.5vw;
+    border-radius: 0 10px 10px 0;
+}
+
+.input_name:focus,
+.input_pass:focus,
+.input_message:focus,
+.input_email:focus {
+    color: black;
+}
+
+.concealment{
+    display: none;
+}
+
+.red_border {
+    border: 2px solid blue;
+}
+
+.red_label{
+    display: none;
+}
+
+.red_text{
+    color: red;
+}
+
+.btn_contact_us,
+.btn_login {
+    width: 100%;
+    cursor: pointer;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-primary-bg);
+    border: 1px solid var(--color-primary-500);
+    border-radius: 10px;
+    color: blue;
+}
+
+.btn_contact_us:hover,
+.btn_contact_us:active {
+    background-color: var(--color-primary-500);
+}
+
+.btn_login:hover,
+.btn_login:active {
+    background-color: var(--color-primary-500);
+}
