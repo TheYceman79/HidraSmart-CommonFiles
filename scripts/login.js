@@ -1,11 +1,4 @@
 
-document.addEventListener("DOMContentLoaded", function() {
-    const headImage = document.getElementById("head-image-services");
-    if (headImage) {
-        headImage.src = "/images/login/US-positivo-horizontal.png";
-    }
-});
-
 var fadeMixinNotTime = Swal.mixin({
     icon: 'warning',
     title: 'General Title',
