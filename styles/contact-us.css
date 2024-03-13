@@ -1,0 +1,46 @@
+
+.container_body{
+  height: 35vw;
+  justify-content: space-between;
+}
+
+.container_subcontainers_input {
+  height: 42vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.subcontainer_input_message{
+  height: 10vw;
+}
+
+.container_img_message{
+  height: 8.5vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0.7vw 0.3vw;
+}
+
+.input_message{
+  height: 8.5vw;
+  padding: 0.7vw 0.5vw;
+  resize: none;
+}
+
+.container_help_links{
+  margin: 1vh 0vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.subcontainer_help_links a{
+  font-size: 0.8rem;
+  color: blue;
+}
+
+.text_important_warning_privacy {
+  font-size: 0.8rem;
+  color: red;
+  margin: 0.5vw;
+}
