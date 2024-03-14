@@ -31,7 +31,9 @@ async function login(token) {
             }
         );
         if (loginResult.ok) {
-            window.location.href ='/gestor-equipos';
+            const responseData = await loginResult.json();
+            const route = responseData.route;
+            window.location.href = route;
         }else{
             const errorResponse = await loginResult.json();
             const errorMessage = errorResponse.message;
