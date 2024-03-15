@@ -48,7 +48,7 @@ function failedLogin(message) {
     fadeMixinNotTime.fire({
         icon: "",
         title:
-            '<img class="img_login_error" src="/images/login/login_error.png" width="60" height="60">',
+            '<img class="img_login_error" src="https://cdn.jsdelivr.net/gh/HidralabIyD/HidraSmart-CommonFiles@latest/icon/login_error.png" width="60" height="60">',
         html: `<p>`+ message +`</p>`,
         showCancelButton: false,
         showConfirmButton: true,
